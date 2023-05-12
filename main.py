@@ -7,7 +7,7 @@ import openai
 import requests
 from flask import Flask, render_template, request
 
-openai.api_key = "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"
+openai.api_key = "ADD_OPENAI_KEY"
 
 SENTENCE_EMBEDDINGS_FILE = "sentence_embeddings.npy"
 
